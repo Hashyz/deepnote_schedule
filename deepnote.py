@@ -4,6 +4,7 @@ import requests
 import schedule
 import pytz
 import time
+from api import myProjects
 
 def extract_variables_from_link(link):
     # Define the regular expression pattern to match the link format
